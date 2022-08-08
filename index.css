@@ -46,17 +46,6 @@ ul {
   font-weight: 600;
 }
 
-.book-button {
-  background-color: #336589;
-  padding: 1rem 3.5rem;
-  border-radius: 25px;
-  outline: none;
-  border: none;
-  color: #fff;
-  font-weight: 600;
-  margin-top: 0.3rem;
-}
-
 .tuitt-button {
   background-color: #c2195b;
   padding: 0.8rem 1rem;
@@ -67,26 +56,16 @@ ul {
   text-align: center;
   font-weight: 600;
 }
-.apply-button {
-  background-color: #c2195b;
-  padding: 1rem 3.5rem;
-  border-radius: 25px;
-  font-size: 1rem;
-  outline: none;
-  border: none;
-  color: #fff;
-  text-align: center;
-  font-weight: 600;
-}
+
 /* End of Header */
 /* Start of bg-image section */
 #bg-image {
-  position: relative;
   height: 45vh;
   background-image: url("https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 .front-bg {
   background-color: rgba(0, 0, 0, 0.6);
@@ -98,10 +77,11 @@ ul {
 }
 
 .container {
-  text-align: right;
+  position: relative;
   max-width: 80vw;
   margin: 0 auto;
   color: #fff;
+  text-align: right;
 }
 
 .container > * {
@@ -110,25 +90,54 @@ ul {
 .title {
   font-size: 2.8rem;
   color: #fff;
+  width: 35%;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .subtitle {
   font-size: 1.5rem;
+  width: 30%;
+  position: absolute;
+  right: 0;
+  top: 150px;
+}
+.apply-button {
+  background-color: #c2195b;
+  padding: 1rem 3.5rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  position: absolute;
+  right: 0%;
+  top: 350px;
 }
 .intro {
   height: 50vh;
+  position: relative;
 }
-/* End of Start of bg-image section */
-/* start of prefooter */
 
 .title-2 {
   text-align: center;
   margin: 3rem auto;
   font-size: 2.4rem;
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  right: 0;
 }
 .intro-description {
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
   font-size: 1.5rem;
+  position: absolute;
+  top: 15rem;
+  left: 0;
+  right: 0;
 }
 
 .pre-footer {
@@ -136,14 +145,30 @@ ul {
   height: 40vh;
   text-align: center;
   padding: 1rem;
+  position: relative;
 }
 
-.title-2 {
-  font-size: 2.4rem;
-}
 .prefooter-description {
   margin: 0.5rem auto;
   color: lightslategray;
+  width: 46%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10rem;
+}
+.book-button {
+  background-color: #336589;
+  padding: 1rem 3rem;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 14rem;
 }
 /* end of prefooter */
 
