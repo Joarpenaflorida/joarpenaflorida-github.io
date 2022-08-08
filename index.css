@@ -20,14 +20,18 @@ body {
 
 /* Start of Header */
 nav {
-  position: sticky;
   width: 100%;
   height: 70px;
   padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: #fff;
 }
 ul {
   width: 80vw;
   margin: 0 auto;
+  vertical-align: middle;
 }
 .nav-logo {
   display: inline;
