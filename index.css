@@ -180,4 +180,5 @@ footer {
 }
 footer > * {
   color: lightslategray;
+  margin: 0 0.5em;
 }
