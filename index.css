@@ -13,6 +13,7 @@ li {
 body {
   line-height: 1.6;
   max-width: 100%;
+  min-height: 100vh;
   margin: 0 auto;
   font-family: "Zilla Slab", serif;
 }
@@ -38,6 +39,39 @@ ul {
 .right-nav > li {
   display: inline;
   margin-left: 1rem;
+  font-weight: 600;
+}
+
+.book-button {
+  background-color: #336589;
+  padding: 1rem 3.5rem;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 0.3rem;
+}
+
+.tuitt-button {
+  background-color: #c2195b;
+  padding: 0.8rem 1rem;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+}
+.apply-button {
+  background-color: #c2195b;
+  padding: 1rem 3.5rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  color: #fff;
+  text-align: center;
   font-weight: 600;
 }
 /* End of Header */
@@ -84,7 +118,7 @@ ul {
 
 .title-2 {
   text-align: center;
-  margin: 4rem;
+  margin: 4rem 0;
   font-size: 2.4rem;
 }
 .intro-description {
@@ -95,58 +129,27 @@ ul {
 
 .pre-footer {
   background-color: #f7fbfb;
-  height: 33vh;
+  height: 40vh;
   text-align: center;
+  padding: 2rem;
 }
+
 .title-2 {
   font-size: 2.4rem;
   padding-top: 3rem;
 }
 .prefooter-description {
   margin: 0.5rem auto;
-  width: 46%;
   color: lightslategray;
 }
 /* end of prefooter */
 
-.book-button {
-  background-color: #336589;
-  padding: 1rem 3.5rem;
-  border-radius: 25px;
-  outline: none;
-  border: none;
-  color: #fff;
-  font-weight: 600;
-  margin-top: 0.3rem;
-}
-
-.tuitt-button {
-  background-color: #c2195b;
-  padding: 0.8rem 1rem;
-  border-radius: 25px;
-  outline: none;
-  border: none;
-  color: #fff;
-  text-align: center;
-  font-weight: 600;
-}
-.apply-button {
-  background-color: #c2195b;
-  padding: 1rem 3.5rem;
-  border-radius: 25px;
-  font-size: 1rem;
-  outline: none;
-  border: none;
-  color: #fff;
-  text-align: center;
-  font-weight: 600;
-}
-
 footer {
   text-align: center;
-  padding: 0.5rem 0;
+  padding: 1rem 0;
+  max-width: 100%;
+  display: block;
 }
 footer > * {
-  margin: 0 0.4rem;
   color: lightslategray;
 }
